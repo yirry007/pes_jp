@@ -1,0 +1,1 @@
+import{e as r}from"./index-C9q2FBSY.js";const s={getUserList(e){return r.get("/admin/user",e)},createUser(e){return r.post("/admin/user",e)},editUser(e){return r.put("/admin/user/"+e.id,e)},delUser(e){return r.delete("/admin/user/"+e.id)},getAllUsers(){return r.get("/admin/all_users")}};export{s as u};

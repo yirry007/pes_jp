@@ -1,0 +1,20 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+tr {
+    line-height: 32px;
+}
+.nav-ext {
+    font-size: 13px;
+    color: #4a5568;
+    border: 1px solid #f8f9fa;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin: 8px;
+}
+.nav-ext.active {
+    border: 1px solid #16b13b;
+    background: #e7f7ec;
+    color: #16b13b;
+}
